@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Charm:wght@400;700&family=Courier+Prime:ital@1&family=Ewert&family=Graduate&family=Kaushan+Script&family=Merienda&family=Nunito:wght@200;300;400;500;600&family=Oleo+Script&family=Open+Sans:wght@300&family=Philosopher:ital,wght@1,700&family=Playball&family=Rajdhani:wght@700&family=Roboto+Mono&family=Roboto:wght@300&family=Rye&family=Sancreek&family=Shrikhand&family=Stardos+Stencil&family=Supermercado+One&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Charm:wght@400;700&family=Courier+Prime:ital@1&family=Edu+SA+Beginner:wght@500&family=Ewert&family=Graduate&family=Kaushan+Script&family=Merienda&family=Nunito:wght@200;300;400;500;600&family=Oleo+Script&family=Open+Sans:wght@300&family=Philosopher:ital,wght@1,700&family=Playball&family=Rajdhani:wght@700&family=Roboto+Mono&family=Roboto:wght@300&family=Rye&family=Sancreek&family=Shrikhand&family=Stardos+Stencil&family=Supermercado+One&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Charm:wght@400;700&family=Courier+Prime:ital@1&family=Edu+SA+Beginner:wght@500&family=Ewert&family=Fondamento:ital@0;1&family=Graduate&family=Kaushan+Script&family=Merienda&family=Nunito:wght@200;300;400;500;600&family=Oleo+Script&family=Open+Sans:wght@300&family=Philosopher:ital,wght@1,700&family=Playball&family=Rajdhani:wght@700&family=Roboto+Mono&family=Roboto:wght@300&family=Rye&family=Sancreek&family=Shrikhand&family=Supermercado+One&family=Yeseva+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 13vh;
+    background-color:#262626;
+   
+}
+.navbar-brand img{
+    width: 50px;
+}
+span{
+    font-style: italic;
+    color: #245e9c;
+}
+
+.heroSection{
+    background-image: url(images/red.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 16px 120px ;
+}
+.heroSection h1{
+    font-family: 'Stardos Stencil', cursive;
+}
+.aboutCon{
+    background-color: black;
+    
+} 
+.text{
+    text-decoration: none;
+}
+.about h2{
+    font-family: 'Charm', cursive;
+}
+.list i{
+    
+    border-radius: 20px;
+    padding: 5px;
+    background-color:rgb(104, 204, 245) ;
+    color: azure;
+    font-size: 10px;
+}
+.qualContainer{
+    background-color: black;
+   
+}
+.fic{
+    font-family: 'Charm', cursive;
+}
+.skillsContainer{
+    background-color: black;
+}
+.skil{
+    font-family: 'Charm', cursive;
+}
+.card-body img{
+    height: 40px;
+}
+
+.proContainer{
+    background-color: black;
+}
+.pro{
+    font-family: 'Charm', cursive;
+}
+.cof img{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    width: 100%;
+    transition: all 0.4s ease;
+   
+    
+}
+.cof:hover{
+    box-shadow: -6px 6px 0 0 rgb(147, 147, 147);
+}
+
+.cof{
+    overflow: hidden;
+    transition: all 0.5s;
+    
+}
+.sha{
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.sha:hover{
+    box-shadow: -6px 6px 0 0 rgb(181, 179, 179);
+}
+
+.cof img:hover{
+    transform: scale(1.1);
+}
+.law{
+    font-family: 'Stardos Stencil', cursive;  
+}
+.future {
+    color: rgb(182, 181, 181);
+}
+.formContainer{
+    background-color: black;
+}
+::placeholder{
+    color:white !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:576px) {
+    .heroSection{
+        padding: 100px 10px ;
+    }
+    .heroSection img{
+        padding: 40px;
+    }
+    
+    .about img{
+        padding: 40px;
+    }
+    .navbar-nav li{
+        background-color:black;
+        padding: 0 20px;
+    }
+    
+}
